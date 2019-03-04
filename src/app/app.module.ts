@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { routing } from './app.routing';
 
@@ -13,7 +14,8 @@ import { LandingPageComponent } from './modules/landing/components/landing-page/
     ],
     imports: [
         BrowserModule,
-        routing
+        routing,
+        FlexLayoutModule
     ],
     providers: [],
     bootstrap: [ AppComponent ]
