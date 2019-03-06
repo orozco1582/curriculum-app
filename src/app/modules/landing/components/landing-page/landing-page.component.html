@@ -1,4 +1,15 @@
-<p>
-    landing-page works!
-</p>
-<footer-contact></footer-contact>
+<div class="loading" *ngIf="busy">
+    <div class="lds-dual-ring"></div>
+</div>
+<div *ngIf="!busy">
+    <header-cv
+        [name]="person.name"
+        [location]="person.location"
+        [occupation]="person.occupation">
+    </header-cv>
+    <footer-contact
+        [linkedinUserID]="person.linkedinUserID"
+        [email]="person.email"
+        [phone]="person.phone">
+    </footer-contact>
+</div>

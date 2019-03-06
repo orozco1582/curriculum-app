@@ -1,69 +1,75 @@
-{
-    "profileSummary": "Systems engineering, frontend web developer. Angular framework, HTML, CSS, LESS, Sass experience during two years. Angular web apps experience. Appassionate for learning new technologies and team work.",
-    "linkedinUserID": "carlos-orozco-530933137",
-    "email": "orozco1582@gmail.com",
-    "phone": "+573218666008",
-    "location": "Cali – Valle del Cauca",
-    "skills": [ "Typescript",
-                "PHP",
-                "Javascript",
-                "Angular",
-                "HTML5",
-                "CSS3",
-                "PHP",
-                "JQuery",
-                "JavaScript",
-                "Bootstrap",
-                "PostgreSQL",
-                "MySQL",
-                "SQLite",
-                "Git" ],
-    "experience": [
-        {
-            "role": "Web developer, Internship",
-            "location": "Alert Logic / Cali, Colombia",
-            "startDate": "July 2016",
-            "endDate": "July 2017",
-            "boss": "Jose Reina - jmateron@alertlogic.com",
-            "responsabilities": [
-                "Increase the test coverage of PHP applications in the Cloud Defender product.",
-                "Support defects and feature requests of AngularJS and PHP code in the Cloud Defender and Cloud Insight applications.",
-                "Develop new software using the SCRUM agile framework.",
-                "Web Development of several modules of a web application in AngularJS and RESTful microservices.",
-                "Task automation using ROBO task runner."
-            ]
-        },
-        {
-            "role": "Web developer, Associated Engineer",
-            "location": "Alert Logic / Cali, Colombia",
-            "startDate": "July 2017",
-            "endDate": "Currently",
-            "boss": "",
-            "responsabilities": [
-                "SIMLess Threat Management: Support fixing defects using Angular framework and sometimes some PHP code.",
-                "SIMLess Threat Management: Web Development for feature requests on Angular framework.",
-                "SIMLess Threat Management: Support and tracking production releases.",
-                "SIMLess Threat Management: Production releases.",
-                "Increase coverage coding unit testing."
-            ]
-        }
-    ],
-    "education": [
-        {
-            "place": "Universidad del Valle",
-            "title": "B.Sc. in System Engineering and Computer Science",
-            "startDate": "Jan 2011",
-            "endData": "June 2017"
-        }
-    ],
-    "lenguages": [
-        {
-            "name": "Español",
-            "level": "Native"
-        },
-        {
-            "name": "English",
-            "level": "Intermediate"
-        }
-    ]
-}
+[
+    {
+        "name": "Carlos Orozco",
+        "profileSummary": "Systems engineering, frontend web developer. Angular framework, HTML, CSS, LESS, Sass experience during two years. Angular web apps experience. Appassionate for learning new technologies and team work.",
+        "linkedinUserID": "carlos-orozco-530933137",
+        "occupation": "Web Developer",
+        "email": "orozco1582@gmail.com",
+        "phone": "+573218666008",
+        "location": "Cali – Valle del Cauca",
+        "skills": [
+            "Typescript",
+            "PHP",
+            "Javascript",
+            "Angular",
+            "HTML5",
+            "CSS3",
+            "PHP",
+            "JQuery",
+            "JavaScript",
+            "Bootstrap",
+            "PostgreSQL",
+            "MySQL",
+            "SQLite",
+            "Git"
+        ],
+        "experience": [
+            {
+                "role": "Web developer, Internship",
+                "location": "Alert Logic / Cali, Colombia",
+                "startDate": "July 2016",
+                "endDate": "July 2017",
+                "boss": "Jose Reina - jmateron@alertlogic.com",
+                "responsabilities": [
+                    "Increase the test coverage of PHP applications in the Cloud Defender product.",
+                    "Support defects and feature requests of AngularJS and PHP code in the Cloud Defender and Cloud Insight applications.",
+                    "Develop new software using the SCRUM agile framework.",
+                    "Web Development of several modules of a web application in AngularJS and RESTful microservices.",
+                    "Task automation using ROBO task runner."
+                ]
+            },
+            {
+                "role": "Web developer, Associated Engineer",
+                "location": "Alert Logic / Cali, Colombia",
+                "startDate": "July 2017",
+                "endDate": "Currently",
+                "boss": "",
+                "responsabilities": [
+                    "SIMLess Threat Management: Support fixing defects using Angular framework and sometimes some PHP code.",
+                    "SIMLess Threat Management: Web Development for feature requests on Angular framework.",
+                    "SIMLess Threat Management: Support and tracking production releases.",
+                    "SIMLess Threat Management: Production releases.",
+                    "Increase coverage coding unit testing."
+                ]
+            }
+        ],
+        "education": [
+            {
+                "place": "Universidad del Valle",
+                "title": "B.Sc. in System Engineering and Computer Science",
+                "startDate": "Jan 2011",
+                "endData": "June 2017"
+            }
+        ],
+        "lenguages": [
+            {
+                "name": "Español",
+                "level": "Native"
+            },
+            {
+                "name": "English",
+                "level": "Intermediate"
+            }
+        ]
+    }
+]

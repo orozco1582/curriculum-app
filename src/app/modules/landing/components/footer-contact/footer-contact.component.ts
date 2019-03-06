@@ -13,7 +13,7 @@ export class FooterContactComponent implements OnInit {
     @Input() email: string;
     @Input() phone: string;
 
-    fulllinkedingUrl: string = "";
+    linkedingUrl: string = "";
 
     constructor() { }
 
@@ -23,6 +23,6 @@ export class FooterContactComponent implements OnInit {
 
 
     private setupContactLinks() {
-        this.fulllinkedingUrl = linkedingUrl + this.linkedinUserID;
+        this.linkedingUrl = linkedingUrl + this.linkedinUserID;
     }
 }
