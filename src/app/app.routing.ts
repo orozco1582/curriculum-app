@@ -1,15 +1,8 @@
 import { Routes, RouterModule } from '@angular/router';
-import { LandingPageComponent } from './modules/landing/components/landing-page/landing-page.component';
+import { LandingModule } from './modules/landing';
 
 export const routes: Routes = [
-    {
-        path: '',
-        component: LandingPageComponent
-    },
-    {
-        path: 'landing',
-        component: LandingPageComponent
-    }
+    ...LandingModule.getRoutes()
 ];
 
-export const routing = RouterModule.forRoot(routes);
+export const routing = RouterModule.forRoot(routes, { useHash: true });

@@ -1,21 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FlexLayoutModule } from '@angular/flex-layout';
+
+import { LandingModule } from './modules/landing';
 
 import { routing } from './app.routing';
 
 import { AppComponent } from './app.component';
-import { LandingPageComponent } from './modules/landing/components/landing-page/landing-page.component';
 
 @NgModule({
     declarations: [
-        AppComponent,
-        LandingPageComponent
+        AppComponent
     ],
     imports: [
         BrowserModule,
-        routing,
-        FlexLayoutModule
+        LandingModule,
+        routing
     ],
     providers: [],
     bootstrap: [ AppComponent ]
