@@ -3,7 +3,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
 
-[Direct access to the App](https://orozco1582.github.io/curriculum-app/)
+[Access to the App](https://orozco1582.github.io/curriculum-app/)
 
 ## Development server
 
