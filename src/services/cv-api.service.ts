@@ -8,7 +8,7 @@ export class CVService {
     constructor(private http: HttpClient) {}
 
     public getCVInfo(): Observable<any> {
-        return this.http.get("./src/mocks/carlos-orozco-CV.json");
+        return this.http.get("https://raw.githubusercontent.com/orozco1582/curriculum-app/master/src/mocks/carlos-orozco-CV.json");
     }
 
 }
