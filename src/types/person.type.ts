@@ -1,4 +1,7 @@
-import { Experience, Education, Lenguage } from ".";
+import { Experience } from "./experience.type";
+import { Education } from "./education.type";
+import { Lenguage } from "./lenguage.type";
+
 
 export class Person {
 
