@@ -1,8 +1,8 @@
 export class Repository {
 
-    private name: string;
-    private html_url: string;
-    private description: string;
+    name: string;
+    html_url: string;
+    description: string;
 
     constructor() {}
 }

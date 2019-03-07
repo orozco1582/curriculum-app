@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 // Components
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { FooterContactComponent } from './components/footer-contact/footer-contact.component';
-import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 import { HeaderCvComponent } from './components/header-cv/header-cv.component';
+import { NotFoundPageComponent } from '../shared/components/not-found-page/not-found-page.component';
 // Services
 import { CVService, GITService } from 'src/services';
 // Modules
@@ -19,7 +19,6 @@ import { ExperienceInfoComponent } from './components/experience-info/experience
     declarations: [
         LandingPageComponent,
         FooterContactComponent,
-        NotFoundPageComponent,
         HeaderCvComponent,
         ExperienceInfoComponent
     ],
