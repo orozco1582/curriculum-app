@@ -1,0 +1,20 @@
+<div class="container">
+    <h3 class="role">
+        {{ experience.role }}
+    </h3>
+    <div class="location">
+        {{ experience.location }}
+    </div>
+    <div class="time-range">
+        {{ experience.startDate }} - {{ experience.endDate }}
+    </div>
+    <div class="boss" *ngIf="experience.boss">
+        <b>Manager: </b><span>{{ experience.boss }}</span>
+    </div>
+    <h4>Responsabilities:</h4>
+    <ul class="responsabilities">
+        <li *ngFor="let responsability of experience.responsabilities">
+            {{ responsability }}
+        </li>
+    </ul>
+</div>

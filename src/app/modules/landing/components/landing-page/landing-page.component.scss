@@ -33,3 +33,48 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.summary-box {
+    width: 100%;
+}
+
+.landing-body {
+    display: flex;
+    @media (max-width: 480px) {
+        flex-direction: column;
+    }
+}
+
+.main-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-box, .education-box {
+    width: 100%;
+    p {
+        font-size: 14px;
+    }
+}
+
+.skills-box, .lenguages-box {
+    width: 100%;
+}
+
+.bubble {
+    border-radius: 50px;
+    background-color: #499bf3;
+    color: white;
+    margin: 5px;
+    font-size: 14px;
+    padding: 14px;
+    a:-webkit-any-link {
+        text-decoration: none;
+        color: white;
+    }
+}
+
+experience-info {
+    width: 100%;
+}

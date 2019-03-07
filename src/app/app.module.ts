@@ -9,7 +9,6 @@ import { LandingModule } from './modules/landing';
 // Main Component
 import { AppComponent } from './app.component';
 
-
 @NgModule({
     declarations: [
         AppComponent

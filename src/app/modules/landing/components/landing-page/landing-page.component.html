@@ -2,11 +2,77 @@
     <div class="lds-dual-ring"></div>
 </div>
 <div *ngIf="!busy">
+    <!-- Personal information -->
     <header-cv
         [name]="person.name"
         [location]="person.location"
         [occupation]="person.occupation">
     </header-cv>
+    <!-- Summary Profile box -->
+    <div class="summary-box">
+        <expandable-card
+            [icon]="'info'"
+            [title]="'Summary profile'">
+            {{ person.profileSummary }}
+        </expandable-card>
+    </div>
+    <div class="landing-body">
+        <div class="experience-box">
+            <expandable-card
+                [icon]="'work'"
+                [title]="'Experience'">
+                <experience-info *ngFor="let exp of person.experience"
+                    [experience]="exp">
+                </experience-info>
+            </expandable-card>
+        </div>
+        <!-- Experience Information -->
+        <div class="main-info">
+            <!-- Skills & Abilities Information -->
+            <div class="skills-box">
+                <expandable-card
+                    [icon]="'grade'"
+                    [title]="'Skills & Abilities'">
+                    <div class="bubble" *ngFor="let skill of person.skills">
+                        {{ skill }}
+                    </div>
+                </expandable-card>
+            </div>
+            <!-- Education Information -->
+            <div class="education-box">
+                <expandable-card
+                    [icon]="'school'"
+                    [title]="'Education'">
+                    <div *ngFor="let item of person.education">
+                        <h3>{{ item.place }}</h3>
+                        <h4>{{ item.title }}</h4>
+                        <p>{{ item.startDate }} - {{ item.endData }}</p>
+                    </div>
+                </expandable-card>
+            </div>
+            <!-- Lenguages Information -->
+            <div class="lenguages-box">
+                <expandable-card
+                    [icon]="'public'"
+                    [title]="'Lenguages'">
+                    <ul *ngFor="let lenguage of person.lenguages">
+                        <li><h3>{{ lenguage.name }}</h3> {{ lenguage.level }}</li>
+                    </ul>
+                </expandable-card>
+            </div>
+        </div>
+    </div>
+    <!-- Repos list -->
+    <div class="repos-info">
+        <expandable-card
+            [icon]="'list'"
+            [title]="'Repository List'">
+            <div class="bubble" *ngFor="let repo of repos">
+                <a href="{{ repo.html_url }}" target="_blank">{{ repo.name }}</a>
+            </div>
+        </expandable-card>
+    </div>
+    <!-- Footer -->
     <footer-contact
         [linkedinUserID]="person.linkedinUserID"
         [email]="person.email"

@@ -14,7 +14,7 @@ export class Person {
     private location: string = "";
     private skills: Array<string> = [];
     private experience: Array<Experience> = [];
-    private education: Education = new Education();
+    private education: Array<Education> = [];
     private lenguages: Array<Lenguage> = [];
 
     constructor() {}

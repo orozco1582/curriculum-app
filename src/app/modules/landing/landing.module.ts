@@ -6,20 +6,26 @@ import { FooterContactComponent } from './components/footer-contact/footer-conta
 import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 import { HeaderCvComponent } from './components/header-cv/header-cv.component';
 // Services
-import { CVService } from 'src/services';
+import { CVService, GITService } from 'src/services';
+// Modules
+import { SharedModule } from '../shared/shared.module';
+import { ExperienceInfoComponent } from './components/experience-info/experience-info.component';
 
 @NgModule({
     imports: [
-        CommonModule
+        CommonModule,
+        SharedModule
     ],
     declarations: [
         LandingPageComponent,
         FooterContactComponent,
         NotFoundPageComponent,
-        HeaderCvComponent
+        HeaderCvComponent,
+        ExperienceInfoComponent
     ],
     providers: [
-        CVService
+        CVService,
+        GITService
     ]
 })
 export class LandingModule {

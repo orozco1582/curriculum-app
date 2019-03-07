@@ -1,8 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
-body {
+html, body {
     margin: 0;
+    color: #3B3B3B;
+    margin: 88px 0 25px 0;
+    /*
+        ##Device = Most of the Smartphones Mobiles (Portrait)
+        ##Screen = B/w 320px to 479px
+    */
+    @media (max-width: 480px) {
+        margin: 62px 0 25px 0;
+    }
 }
 
 div {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.material-icons {
+    font-size: 30px;
+    color: black;
 }

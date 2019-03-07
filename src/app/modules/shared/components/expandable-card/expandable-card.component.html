@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="header" (click)="toggle()">
+        <div class="icon"><i class="material-icons">{{ icon }}</i></div>
+        <div class="title">{{ title }}</div>
+        <div class="icon-expand">
+            <i class="material-icons">{{ iconExpand }}</i>
+        </div>
+    </div>
+    <div class="content" *ngIf="expanded">
+        <ng-content></ng-content>
+    </div>
+</div>
